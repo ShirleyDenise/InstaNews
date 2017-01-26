@@ -1,8 +1,10 @@
 // @import 'variables';
+@import 'variables';
 @import 'mixins';
 
 @import 'reset';
 @import 'fonts';
+@import 'footer';
 
 
 /*  CSS  */
@@ -31,23 +33,4 @@
     
 }
 
-.footer {
-    color: #c2c2c2;
-}
 
-.copyright span{
-    text-transform: uppercase;
-}
-
-
-
-/* Breakpoints Tab */
-
-@media all and (min-width: 600px) {
-}
-
-/* Breakpoints Desk */
-
-
-@media all and (min-width: 1000px) {
-}
