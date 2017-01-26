@@ -94,20 +94,18 @@ header {
 
 .logo {
   margin-bottom: 0.5rem;
-  padding: 0.5rem; }
+  padding: 0.4rem; }
 
 .sections-form {
   color: white;
   margin-bottom: 1rem;
   font-family: 'open_sans'; }
-
-.sections-form p {
-  margin-bottom: 1rem;
-  font-size: 13px; }
-
-.sections {
-  -webkit-appearance: none;
-  -moz-appearance: none; }
+  .sections-form p {
+    margin-bottom: 1rem;
+    font-size: 13px; }
+  .sections-form select {
+    -webkit-appearance: menulist;
+    font-size: 18px; }
 
 .footer {
   font-size: 14px;
