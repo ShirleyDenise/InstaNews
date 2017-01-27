@@ -9,6 +9,10 @@ header {
         padding-bottom: 280px;
         padding-left: 220px;
     }
+    @include media($desktop-width){
+      margin-right: 80%;
+      padding-left: 2%;
+    }
     
 }
 
@@ -22,6 +26,11 @@ header {
        margin-right: 8px;
        
        }
+       @include media($desktop-width){
+        width: 220px;
+        height: auto;
+        margin-right: 70px;
+    }
     }
 
 }
@@ -42,15 +51,33 @@ header {
        text-align: left;
        font-size: 15px;
        }
+       @include media($desktop-width) {
+        font-size: 16px;
+       }
     }
     select  {
     -webkit-appearance: menulist;
     font-size: 18px;
+    @include media($desktop-width) {
+        font-size: 18px;
+        
+       }
     }
     @include media($tab-width) {
-       padding-top: 50%;
+       padding-top: 60%;
+       }
+    @include media($desktop-width) {
+        width: 250px;
+        padding-top: 27%;
        }
     
+}
+
+.styled-select {
+    text-align: center;
+    @include media($desktop-width) {
+        text-align: left;
+    }
 }
 
 

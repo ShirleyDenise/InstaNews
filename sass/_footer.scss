@@ -8,6 +8,12 @@
    
 }
 
+.copyright p{
+    @include media($desktop-width){
+        margin-right: 79%;
+    }
+}
+
 .copyright span{
     text-transform: uppercase;
     
