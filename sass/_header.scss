@@ -1,12 +1,29 @@
 header {
     padding: 27%;
+    display: flex;
+    flex-direction: column;
+    
+    @include media($tab-width) {
+        flex-direction: row;
+        padding-top: 180px;
+        padding-bottom: 280px;
+        padding-left: 220px;
+    }
+    
 }
 
 .logo {
     margin-bottom: 0.5rem;
     padding: 0.4rem;
-    
-   
+    img{
+     @include media($tab-width) {
+       width: 200px;
+       height: auto;
+       margin-right: 8px;
+       
+       }
+    }
+
 }
 
 .sections-form {
@@ -14,14 +31,25 @@ header {
     color: white;
     margin-bottom: 1rem;
     font-family: 'open_sans';
+    @include media($tab-width) {
+       margin-bottom: 0;
+       margin-top: 10px;
+       }
     p {
     margin-bottom: 1rem;
     font-size: 13px;
+    @include media($tab-width) {
+       text-align: left;
+       font-size: 15px;
+       }
     }
     select  {
     -webkit-appearance: menulist;
     font-size: 18px;
     }
+    @include media($tab-width) {
+       padding-top: 50%;
+       }
     
 }
 

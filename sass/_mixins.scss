@@ -1,12 +1,5 @@
-@mixin tab {
-  @media (min-width: $tab-width) {
-    @content;
-  }
-}
-
-
-@mixin desktop {
-  @media (min-width: $desktop-width) {
+@mixin media($width) {
+  @media all and (min-width: $width) {
     @content;
   }
 }
