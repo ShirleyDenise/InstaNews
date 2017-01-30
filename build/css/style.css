@@ -71,27 +71,8 @@ table {
   font-weight: normal;
   font-style: italic; }
 
-html {
-  width: 100%;
-  height: 100%;
-  min-width: 480px;
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0; }
-  @media all and (min-width: 1000px) {
-    html {
-      margin: 0 auto; } }
-
 .container {
-  background-color: black;
-  height: 100%;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  font-family: open_sans;
-  font-size: 16px; }
+  background-color: black; }
 
 header {
   padding: 27%;
@@ -169,10 +150,7 @@ header {
 
 .footer {
   font-size: 14px;
-  color: #c2c2c2;
-  position: absolute;
-  bottom: 8%;
-  width: 100%; }
+  color: #c2c2c2; }
 
 @media all and (min-width: 1000px) {
   .copyright p {

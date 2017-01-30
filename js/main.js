@@ -19,7 +19,7 @@ $(document).ready(function() {
     // show loading giff when loading section
     $news.empty();
     // so the articles won't keep on adding. It will clear the page before adding new articles.
-
+    
   
 
         var url = 'https://api.nytimes.com/svc/topstories/v2/' + userSelect + '.json';
