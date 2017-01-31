@@ -51,11 +51,24 @@ $(document).ready(function() {
         var $abstract = value.abstract;
         var $newsimage = value.multimedia[4].url;
        
-        newsString += '<li><a href=' + $newslink + ' target="_blank">';
-        //newsString += '<p>'+ $abstract +'</p>';
-        newsString += '<img src=" '+ $newsimage +'">';
-        newsString += '<p>'+ $abstract +'</p>';
-        newsString += '</></a></li>';
+        // div class="news"
+        newsString += '<li>';
+        newsString +=       '<a href=';
+        newsString +=             $newslink; 
+        newsString +=         ' target="_blank">';
+        newsString +=             '<div class="wrapper-img">';
+        newsString +=               '<div class="wrapper-text">';
+        newsString +=                 '<p>';
+        newsString +=                   $abstract ;
+        newsString +=                 '</p>';
+        newsString +=               '</div>';
+        newsString +=               '<img src="';
+        newsString +=               $newsimage ;
+        newsString +=               '" alt="image"/>';
+        newsString +=             '</div>';
+        newsString +=       '</a>' ;
+        newsString +=  '</li>';
+
         console.log(newsString);
 
          // $('.news').append('<li class="results_wrap"><h3 class="h1result">' + value.abstract + '</h3><img src=' + value.multimedia[4].url + ' /></li>');

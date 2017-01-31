@@ -1,16 +1,22 @@
 
 .footer {
-    font-size: 14px;
+    position: fixed;
+    font-size: 14.5px;
+    bottom: 0;
     color: #c2c2c2;
-    // position: absolute;
-    // bottom: 8%;
-    // width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    
+
    
 }
 
 .copyright p{
+    
     @include media($desktop-width){
-        margin-right: 79%;
+        text-align: left;
+        padding-left: 2%;
     }
 }
 
