@@ -22,9 +22,9 @@ Technologies Used:
 Learning Experience:
 
 First time using Javascript, Jquery, Ajax and Json in a project as well as Gulp which is very handy!
-For Javascript, Jquery Ajax and Json it was a new level of information, a whole new world of programming. Very intense which requires a lot of work and practice.
-At first it was hard to get started, but the more we do, the more we see results, the more we are encouraged to keep on trying new things.
-The never ending work in progress, or should I say; learning in progress.
+For Javascript, Jquery Ajax and Json it was a new level of information, a whole new world of programming. 
+This project allows me to try and play around all these new and recently learned tools. Trying to find solutions to each new problem.
+
 
 Preview:
 
