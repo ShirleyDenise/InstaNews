@@ -19,8 +19,8 @@ $(document).ready(function() {
     // show loading giff when loading section
     $news.empty();
     // so the articles won't keep on adding. It will clear the page before adding new articles.
-    
-  
+    // $('header').switchClass("large-header", "small-header", 1000, "EaseBounceOut" );
+    $('header').addClass('small-header').removeClass('large-header');
 
         var url = 'https://api.nytimes.com/svc/topstories/v2/' + userSelect + '.json';
         // so when user select 'home'(for ex) it add home to the url

@@ -1,4 +1,4 @@
-header {
+.large-header {
     padding: 27%;
     display: flex;
     flex-direction: column;
@@ -16,74 +16,151 @@ header {
       margin-right: 80%;
       padding-left: 2%;
     }
-    
+        .logo {
+            text-align: center;
+            margin-bottom: 0.5rem;
+            padding: 0.4rem;
+            img{
+            @include media($tab-width) {
+            width: 200px;
+            height: auto;
+            margin-right: 8px;
+            
+            }
+            @include media($desktop-width){
+                width: 220px;
+                height: auto;
+                margin-right: 70px;
+            }
+            }
+
+        }  
+
+        .sections-form {
+            
+            color: white;
+            margin-bottom: 1rem;
+            font-family: 'open_sans';
+            @include media($tab-width) {
+            margin-bottom: 0;
+            margin-top: 10px;
+            }
+            p {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 13px;
+            @include media($tab-width) {
+            text-align: left;
+            font-size: 15px;
+            }
+            @include media($desktop-width) {
+                font-size: 16px;
+            }
+            }
+            select  {
+            -webkit-appearance: menulist;
+            font-size: 18px;
+            @include media($desktop-width) {
+                font-size: 18px;
+                
+            }
+            }
+            @include media($tab-width) {
+            padding-top: 60%;
+            }
+            @include media($desktop-width) {
+                width: 250px;
+                padding-top: 27%;
+            }
+            
+        }
+
+        .styled-select {
+            text-align: center;
+            @include media($desktop-width) {
+                text-align: left;
+            }
+        }
 }
 
-.logo {
-    text-align: center;
-    margin-bottom: 0.5rem;
-    padding: 0.4rem;
-    img{
-     @include media($tab-width) {
-       width: 200px;
-       height: auto;
-       margin-right: 8px;
-       
-       }
-       @include media($desktop-width){
-        width: 220px;
-        height: auto;
-        margin-right: 70px;
-    }
-    }
+// small-header for animation once the articles are on the pages.
 
-}
-
-.sections-form {
-    
-    color: white;
-    margin-bottom: 1rem;
-    font-family: 'open_sans';
+.small-header {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
     @include media($tab-width) {
-       margin-bottom: 0;
-       margin-top: 10px;
-       }
-    p {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 13px;
-    @include media($tab-width) {
-       text-align: left;
-       font-size: 15px;
-       }
-       @include media($desktop-width) {
-        font-size: 16px;
-       }
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 90px;
     }
-    select  {
-    -webkit-appearance: menulist;
-    font-size: 18px;
-    @include media($desktop-width) {
-        font-size: 18px;
-        
-       }
-    }
-    @include media($tab-width) {
-       padding-top: 60%;
-       }
-    @include media($desktop-width) {
-        width: 250px;
-        padding-top: 27%;
-       }
-    
+        .logo {
+            text-align: center;
+            margin-bottom: 0.5rem;
+            padding: 0.4rem;
+            img{
+                width: 150px;
+                @include media($tab-width) {
+                width: 67px;
+                height: auto;
+                margin-right: 8px;
+                
+                }
+                
+                }
+
+        }  
+
+        .sections-form {
+            
+            color: white;
+            margin-bottom: 1rem;
+            font-family: 'open_sans';
+            @include media($tab-width) {
+            margin-bottom: 20px;
+            padding-left: 70px;
+            margin-top: 0;
+            }
+            p {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 13px;
+            @include media($tab-width) {
+            text-align: left;
+            font-size: 15px;
+            }
+            @include media($desktop-width) {
+                font-size: 16px;
+            }
+            }
+            select  {
+            -webkit-appearance: menulist;
+            font-size: 18px;
+            @include media($tab-width) {
+            padding-top: 10%;
+            
+            }
+            @include media($desktop-width) {
+                font-size: 18px;
+                
+            }
+            }
+           
+          
+            
+        }
+
+        .styled-select {
+            text-align: center;
+            @include media($desktop-width) {
+                text-align: left;
+            }
+        }
 }
 
-.styled-select {
-    text-align: center;
-    @include media($desktop-width) {
-        text-align: left;
-    }
-}
 
 .preload img {
     width: 35px;

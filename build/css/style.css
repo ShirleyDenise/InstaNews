@@ -87,7 +87,7 @@ html {
   font-size: 16px;
   box-sizing: border-box; }
 
-header {
+.large-header {
   padding: 27%;
   display: -ms-flexbox;
   display: flex;
@@ -95,72 +95,129 @@ header {
       flex-direction: column;
   box-sizing: border-box; }
   @media all and (min-width: 600px) {
-    header {
+    .large-header {
       -ms-flex-direction: row;
           flex-direction: row;
       padding-top: 180px;
       padding-bottom: 280px;
       padding-left: 220px; } }
   @media all and (min-width: 1000px) {
-    header {
+    .large-header {
       width: 100vw;
       height: 100vh;
       margin-right: 80%;
       padding-left: 2%; } }
-
-.logo {
-  text-align: center;
-  margin-bottom: 0.5rem;
-  padding: 0.4rem; }
-  @media all and (min-width: 600px) {
-    .logo img {
-      width: 200px;
-      height: auto;
-      margin-right: 8px; } }
-  @media all and (min-width: 1000px) {
-    .logo img {
-      width: 220px;
-      height: auto;
-      margin-right: 70px; } }
-
-.sections-form {
-  color: white;
-  margin-bottom: 1rem;
-  font-family: 'open_sans'; }
-  @media all and (min-width: 600px) {
-    .sections-form {
-      margin-bottom: 0;
-      margin-top: 10px; } }
-  .sections-form p {
+  .large-header .logo {
     text-align: center;
-    margin-bottom: 1rem;
-    font-size: 13px; }
+    margin-bottom: 0.5rem;
+    padding: 0.4rem; }
     @media all and (min-width: 600px) {
-      .sections-form p {
-        text-align: left;
-        font-size: 15px; } }
+      .large-header .logo img {
+        width: 200px;
+        height: auto;
+        margin-right: 8px; } }
     @media all and (min-width: 1000px) {
-      .sections-form p {
-        font-size: 16px; } }
-  .sections-form select {
-    -webkit-appearance: menulist;
-    font-size: 18px; }
+      .large-header .logo img {
+        width: 220px;
+        height: auto;
+        margin-right: 70px; } }
+  .large-header .sections-form {
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'open_sans'; }
+    @media all and (min-width: 600px) {
+      .large-header .sections-form {
+        margin-bottom: 0;
+        margin-top: 10px; } }
+    .large-header .sections-form p {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 13px; }
+      @media all and (min-width: 600px) {
+        .large-header .sections-form p {
+          text-align: left;
+          font-size: 15px; } }
+      @media all and (min-width: 1000px) {
+        .large-header .sections-form p {
+          font-size: 16px; } }
+    .large-header .sections-form select {
+      -webkit-appearance: menulist;
+      font-size: 18px; }
+      @media all and (min-width: 1000px) {
+        .large-header .sections-form select {
+          font-size: 18px; } }
+    @media all and (min-width: 600px) {
+      .large-header .sections-form {
+        padding-top: 60%; } }
     @media all and (min-width: 1000px) {
-      .sections-form select {
-        font-size: 18px; } }
-  @media all and (min-width: 600px) {
-    .sections-form {
-      padding-top: 60%; } }
-  @media all and (min-width: 1000px) {
-    .sections-form {
-      width: 250px;
-      padding-top: 27%; } }
+      .large-header .sections-form {
+        width: 250px;
+        padding-top: 27%; } }
+  .large-header .styled-select {
+    text-align: center; }
+    @media all and (min-width: 1000px) {
+      .large-header .styled-select {
+        text-align: left; } }
 
-.styled-select {
-  text-align: center; }
-  @media all and (min-width: 1000px) {
-    .styled-select {
-      text-align: left; } }
+.small-header {
+  padding: 5%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  box-sizing: border-box; }
+  @media all and (min-width: 600px) {
+    .small-header {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left: 90px; } }
+  .small-header .logo {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem; }
+    .small-header .logo img {
+      width: 150px; }
+      @media all and (min-width: 600px) {
+        .small-header .logo img {
+          width: 67px;
+          height: auto;
+          margin-right: 8px; } }
+  .small-header .sections-form {
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'open_sans'; }
+    @media all and (min-width: 600px) {
+      .small-header .sections-form {
+        margin-bottom: 20px;
+        padding-left: 70px;
+        margin-top: 0; } }
+    .small-header .sections-form p {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 13px; }
+      @media all and (min-width: 600px) {
+        .small-header .sections-form p {
+          text-align: left;
+          font-size: 15px; } }
+      @media all and (min-width: 1000px) {
+        .small-header .sections-form p {
+          font-size: 16px; } }
+    .small-header .sections-form select {
+      -webkit-appearance: menulist;
+      font-size: 18px; }
+      @media all and (min-width: 600px) {
+        .small-header .sections-form select {
+          padding-top: 10%; } }
+      @media all and (min-width: 1000px) {
+        .small-header .sections-form select {
+          font-size: 18px; } }
+  .small-header .styled-select {
+    text-align: center; }
+    @media all and (min-width: 1000px) {
+      .small-header .styled-select {
+        text-align: left; } }
 
 .preload img {
   width: 35px;
