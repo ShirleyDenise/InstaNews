@@ -1,6 +1,6 @@
 InstaNews
 
-![](file:///Users/Shirley/Desktop/Screen%20Shot%202017-01-30%20at%2022.47.37.png)
+![](http://img11.hostingpics.net/pics/173115ScreenShot20170130at224737.png)
 
 
 
@@ -30,7 +30,7 @@ Preview:
 
 
 
-![](file:///Users/Shirley/Desktop/Screen%20Shot%202017-01-30%20at%2022.51.15.png)
+![](http://img11.hostingpics.net/pics/879116ScreenShot20170130at225115.png)
 
 
 
