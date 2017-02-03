@@ -104,7 +104,7 @@ html {
   @media all and (min-width: 1000px) {
     .large-header {
       width: 100vw;
-      height: 100vh;
+      height: 90vh;
       margin-right: 80%;
       padding-left: 2%; } }
   .large-header .logo {
@@ -124,11 +124,16 @@ html {
   .large-header .sections-form {
     color: white;
     margin-bottom: 1rem;
-    font-family: 'open_sans'; }
+    font-family: 'open_sans', sans-serif; }
     @media all and (min-width: 600px) {
       .large-header .sections-form {
         margin-bottom: 0;
-        margin-top: 10px; } }
+        margin-top: 10px;
+        padding-top: 60%; } }
+    @media all and (min-width: 1000px) {
+      .large-header .sections-form {
+        width: 250px;
+        padding-top: 27%; } }
     .large-header .sections-form p {
       text-align: center;
       margin-bottom: 1rem;
@@ -146,13 +151,6 @@ html {
       @media all and (min-width: 1000px) {
         .large-header .sections-form select {
           font-size: 18px; } }
-    @media all and (min-width: 600px) {
-      .large-header .sections-form {
-        padding-top: 60%; } }
-    @media all and (min-width: 1000px) {
-      .large-header .sections-form {
-        width: 250px;
-        padding-top: 27%; } }
   .large-header .styled-select {
     text-align: center; }
     @media all and (min-width: 1000px) {
@@ -187,7 +185,7 @@ html {
   .small-header .sections-form {
     color: white;
     margin-bottom: 1rem;
-    font-family: 'open_sans'; }
+    font-family: 'open_sans', sans-serif; }
     @media all and (min-width: 600px) {
       .small-header .sections-form {
         margin-bottom: 20px;
@@ -266,13 +264,13 @@ li {
     padding-left: 8px; }
 
 .footer {
-  position: fixed;
   font-size: 14.5px;
   bottom: 0;
   color: #c2c2c2;
   text-align: center;
   box-sizing: border-box;
-  width: 100%; }
+  width: 100%;
+  height: 10vh; }
 
 @media all and (min-width: 1000px) {
   .copyright p {
